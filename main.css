@@ -1,0 +1,45 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  text-align: center;
+
+}
+
+.box {
+  background-color: lightgray;
+  border-radius: 10px;
+
+}
+
+.head {
+  padding: 20px 0;
+}
+
+.price {
+  background-color: red;
+  color: white;
+  padding: 20px 10px;
+}
+
+.description {
+  padding: 20px 0 20px 0;
+}
+
+.button {
+  text-decoration: none;
+  display: inline-block;
+  background-color: darkblue;
+  color: white;
+  padding: 7px 40px;
+  border-radius: 50px;
+  font-weight: bold;
+  border: 1px solid white;
+}
+
+.list {
+  text-align: left;
+  padding: 15px 60px;
+
+
+}
